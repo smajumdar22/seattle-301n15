@@ -1,0 +1,13 @@
+Reference - https://www.essentialsql.com/get-ready-to-learn-sql-database-normalization-explained-in-simple-english/
+
+Database normalization is a process used to organize a database into tables and columns.  The idea is that a table should be about a specific topic and that and only supporting topics included. For example, a spreadsheet containing information about sales people and customers serves several purposes:
+Identify sales people in your organization
+List all customers your company calls upon to sell product
+Identify which sales people call on specific customers.
+
+Reasons for Database Normalization
+There are three main reasons to normalize a database.  The first is to minimize duplicate data, the second 
+is to minimize or avoid data modification issues, and the third is to simplify queries. 
+
+As we go through the various states of normalization we’ll discuss how each form addresses these 
+issues, but to start, let’s look at some data which hasn’t been normalized and discuss some potential pitfalls. 
